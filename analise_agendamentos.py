@@ -22,11 +22,6 @@ from wordcloud import WordCloud
 # Configurar a página do Streamlit (removendo o layout wide)
 st.set_page_config(page_title="Dashboard de Agendamentos Médicos")
 
-# Certifique-se de baixar os recursos do NLTK
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('rslp')
-
 def main():
     st.title("Análise de Agendamentos Médicos e de Enfermagem")
 

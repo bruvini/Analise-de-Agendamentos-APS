@@ -2,14 +2,7 @@
 import os
 import pandas as pd
 import numpy as np
-
-# Configurar o caminho dos dados do NLTK
-nltk_data_path = os.path.expanduser('~/.nltk_data')
-os.makedirs(nltk_data_path, exist_ok=True)
-
 import nltk
-nltk.data.path.append(nltk_data_path)
-
 from nltk.corpus import stopwords
 from nltk.tokenize import wordpunct_tokenize
 import re
